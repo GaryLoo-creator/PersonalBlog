@@ -1,0 +1,6 @@
+{
+  "name": "personal-blog",
+  "dependencies": {
+    "hexo-server": "^2.0.0"
+  }
+}
