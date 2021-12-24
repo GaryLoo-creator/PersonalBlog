@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 工作笔记
+title: GaryLoo Blog
 subtitle: ""
 description: ""
 keywords: 笔记
 author: Gary Loo
-language: en
+language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
