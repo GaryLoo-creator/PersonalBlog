@@ -13,7 +13,7 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "@fancyapps/ui": "^4.0.12",
+    "@fancyapps/ui": "^4.0.14",
     "hexo": "^5.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
