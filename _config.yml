@@ -12,8 +12,9 @@ language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+## 在此处设置您的网站网址。 例如，如果您使用 GitHub Page，请将 url 设置为“https://username.github.io/project”
+url: https://garyloo-creator.github.io/
+root: /PersonalBlog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,5 +103,9 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# https://github.com/GaryLoo-creator/PersonalBlog.git
+# https://github.com/GaryLoo-creator/blogPage.git
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/GaryLoo-creator/PersonalBlog.git
+  branch: gh-pages
