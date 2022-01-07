@@ -182,8 +182,12 @@ aside:
 excerpt_link: Read More
 fancybox: true
 index_post_content:
-  method: 3
-  length: 500 # if you set method to 2 or 3, the length need to config
+  method: 2
+  # description： 只显示description
+  # both： 优先选择description，如果没有配置description，则显示自动节选的内容
+  # auto_excerpt：只显示自动节选
+  # false： 不显示文章内容
+  length: 100 # 如果将method设置为2或3，则长度需要配置
 avatar:
   img: /images/avatar.jpg
   effect: false # 頭像會一直轉圈

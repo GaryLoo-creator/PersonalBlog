@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## 在此处设置您的网站网址。 例如，如果您使用 GitHub Page，请将 url 设置为“https://username.github.io/project”
-url: https://garyloo-creator.github.io/
+url: https://garyloo-creator.github.io/PersonalBlog/
 root: /PersonalBlog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:

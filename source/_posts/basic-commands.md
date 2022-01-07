@@ -1,7 +1,7 @@
 ---
 title: hexo基础命令
 updated_option: "date"
-description: 只顯示description
+description: 学习hexo基础命令
 categories:
   - 基础
 tags:
