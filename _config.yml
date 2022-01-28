@@ -18,8 +18,8 @@ root: /PersonalBlog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # 设置为 false 以从永久链接中删除尾随的“index.html”
+  trailing_html: true # 设置为 false 以从永久链接中删除尾随的“.html”
 
 # Directory
 source_dir: source
@@ -32,12 +32,12 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :title.md # 新帖子的文件名
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: false # 将标题转换为标题大写
 external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
+  enable: true # 在新标签页中打开外部链接
+  field: site # 适用于整个网站
   exclude: ""
 filename_case: 0
 render_drafts: false

@@ -6,7 +6,8 @@ categories:
 tags:
   - 组件
 description: el-date-picker组件当设置了默认的具体时间点后无法选中今天的解决方案
-top_img: "linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"
+top_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
 ---
 
 ## elementUI el-date-picker
