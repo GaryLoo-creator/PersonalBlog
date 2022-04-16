@@ -28,9 +28,21 @@ tags:
 
 ### 创建一个新帖子
 
+创建文章前要先选定模板，在 hexo 中也叫做布局。hexo 支持三种布局（layout）：post(默认)、draft、page
+
+在博客目录下启用终端输入以下命令时，会默认使用 post 布局，然后自动在 source_posts 目录生成一个 MyNewPost.md 文件：
+
 ```bash
-$ hexo new "My New Post"
+$ hexo new "MyNewPost"
 ```
+
+你还可以指定布局：
+
+```bash
+$ hexo n [layout_name] MyNewPost
+```
+
+该命令创建了一个使用特定布局的名为 draft1 的文章。
 
 更多详情: [Writing](https://hexo.io/docs/writing.html)
 
